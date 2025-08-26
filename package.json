@@ -1,4 +1,9 @@
 "homepage": "https://<your-username>.github.io/<repo-name>"
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
 {
   "name": "finance-tracker",
   "private": true,
