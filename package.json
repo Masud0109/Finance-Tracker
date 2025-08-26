@@ -1,14 +1,9 @@
-"homepage": "https://<your-username>.github.io/<repo-name>"
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
 {
   "name": "finance-tracker",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Masud0109.github.io/Finance-Tracker",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -37,4 +32,6 @@
     "globals": "^16.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.12",
-    "vite":
+    "vite": "^7.1.2"
+  }
+}
